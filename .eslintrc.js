@@ -7,7 +7,9 @@ module.exports = {
     'extends': [
         'eslint:recommended',
         'plugin:react/recommended',
-        'react:recommended'
+        'react:recommended',
+        'prettier',
+        'prettier/react'
     ],
     'parserOptions': {
         'ecmaFeatures': {
@@ -16,12 +18,13 @@ module.exports = {
         'ecmaVersion': 12
     },
     'plugins': [
-        'react'
+        'react',
+        'prettier'
     ],
     'rules': {
         'indent': [
             'error',
-            4
+            2
         ],
         'linebreak-style': [
             'error',

@@ -1,12 +1,13 @@
 import './App.css'
 import Bio from './Bio'
 import Projects from './Projects'
+import Navbar from './Navbar'
 function App() {
   return (
     <div>
-      <h3>hello world!</h3>
-      <Bio/>
-      <Projects/>
+      <Navbar />
+      <Bio />
+      <Projects />
     </div>
   );
 }
