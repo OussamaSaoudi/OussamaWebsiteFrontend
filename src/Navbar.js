@@ -5,5 +5,6 @@ const Navbar = () => {
       <li>Blog</li>
       <li>Get in Touch</li>
     </ul>
-  )
-}
+  );
+};
+export default Navbar;
