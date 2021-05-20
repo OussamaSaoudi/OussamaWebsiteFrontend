@@ -3,6 +3,7 @@ module.exports = {
     node: true,
     commonjs: true,
     es2021: true,
+    browser: true
   },
   extends: [
     'eslint:recommended',
@@ -13,15 +14,16 @@ module.exports = {
       jsx: true,
     },
     ecmaVersion: 12,
+    sourceType: 'module'
   },
   plugins: ['react'],
   rules: {
-    indent: ['error', 2],
-    'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single'],
-    semi: ['error', 'never'],
-    'no-trailing-spaces': 'error',
-    'object-curly-spacing': ['error', 'always'],
-    'arrow-spacing': ['error', { before: true, after: true }],
+    indent: ['warn', 2],
+    'linebreak-style': ['warn', 'unix'],
+    quotes: ['warn', 'single'],
+    semi: ['warn', 'never'],
+    'no-trailing-spaces': 'warn',
+    'object-curly-spacing': ['warn', 'always'],
+    'arrow-spacing': ['warn', { before: true, after: true }],
   },
 }
