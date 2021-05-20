@@ -1,3 +1,5 @@
+import React from 'react'
+
 const Navbar = () => {
   return (
     <ul>
@@ -5,6 +7,6 @@ const Navbar = () => {
       <li>Blog</li>
       <li>Get in Touch</li>
     </ul>
-  );
-};
-export default Navbar;
+  )
+}
+export default Navbar

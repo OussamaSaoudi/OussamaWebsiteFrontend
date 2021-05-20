@@ -1,4 +1,4 @@
-import './App.css'
+import React from 'react'
 import Bio from './Bio'
 import Projects from './Projects'
 import Navbar from './Navbar'
@@ -9,7 +9,7 @@ function App() {
       <Bio />
       <Projects />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
