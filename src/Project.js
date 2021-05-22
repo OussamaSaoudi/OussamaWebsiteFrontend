@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 const Project = ({ title, content }) => {
   return (
-    <div>
-      {title}
+    <div className='container'>
+      <h4>{title}</h4>
+      <br />
       {content}
     </div>
   )
