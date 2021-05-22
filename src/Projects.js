@@ -1,21 +1,26 @@
 import React from 'react'
-
+import Project from './Project'
 const Projects = () => {
   const projectList = [
     {
-      title: 'Orate-io'
+      title: 'Orate-io',
+      content: ''
     },
     {
-      title: 'Labyrinth'
+      title: 'Labyrinth',
+      content: ''
     },
     {
-      title: 'Personal Website'
+      title: 'Personal Website',
+      content: ''
     },
     {
-      title: 'OpenJ9'
+      title: 'OpenJ9',
+      content: ''
     },
     {
-      title: 'Autonomous Vehicles'
+      title: 'Autonomous Vehicles',
+      content: ''
     }
   ]
   return (
@@ -24,7 +29,7 @@ const Projects = () => {
       <ul>
         {
           projectList.map((project, index) =>
-            <li key={index}>{project.title}</li>
+            <li key={index}><Project title={project.title} /></li>
           )
         }
       </ul>
