@@ -45,8 +45,7 @@ const Projects = () => {
         {
           projectList.map((project, index) =>
             <Project key={index} title={project.title} content={project.content} tags={project.tags} />
-          )
-        }
+          )}
       </ul>
     </div>
   )

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const Project = ({ title, content, tags }) => {
   return (
     <div className='sm:my-6 sm:mx-4 md:mx-8 lg:ms-12'>
-      <div className='w-full px-4 pb-5 sm:px-6 md:px-8 sm:rounded-xl bg-white sm:shadow-md'>
+      <div className='w-full mx-4 pb-5 sm:px-6 md:px-8 sm:rounded-xl bg-gray-50 sm:shadow-md'>
         <div className="uppercase tracking-wide text-lg  pt-5 text-purple-700 font-bold">{title}</div>
         <div className="text-justify text-gray-600">{content}</div>
         <div className='pt-2'>
