@@ -5,13 +5,13 @@ import {
   Route
 } from 'react-router-dom'
 import Home from './Home'
-import Navbar from './Navbar'
+import Navigation from './Navigation'
 import Blogs from './Blogs'
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navigation />
       <div>
         <Switch>
           <Route path='/blog'>
