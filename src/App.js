@@ -11,18 +11,16 @@ import Blogs from './Blogs'
 function App() {
   return (
     <Router>
-      <div className='flex bg-gray-900'>
-        <Navbar />
-        <div>
-          <Switch>
-            <Route path='/blog'>
-              <Blogs />
-            </Route>
-            <Route path='/'>
-              <Home />
-            </Route>
-          </Switch>
-        </div>
+      <Navbar />
+      <div>
+        <Switch>
+          <Route path='/blog'>
+            <Blogs />
+          </Route>
+          <Route path='/'>
+            <Home />
+          </Route>
+        </Switch>
       </div>
     </Router>
 
