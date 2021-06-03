@@ -6,25 +6,25 @@ import {
 } from 'react-router-dom'
 import Home from './Home'
 import Navbar from './Navbar'
-import Blog from './Blog'
+import Blogs from './Blogs'
 
 function App() {
   return (
-      <Router>
-        <div className='flex bg-gray-900'>
+    <Router>
+      <div className='flex bg-gray-900'>
         <Navbar />
         <div>
           <Switch>
             <Route path='/blog'>
-              <Blog />
+              <Blogs />
             </Route>
             <Route path='/'>
               <Home />
             </Route>
           </Switch>
         </div>
-        </div>
-      </Router>
+      </div>
+    </Router>
 
   )
 }
